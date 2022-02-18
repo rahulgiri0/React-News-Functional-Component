@@ -5,7 +5,7 @@ import News from "./components/News";
 import { Route, BrowserRouter, Switch } from "react-router-dom";
 
 const App = () => {
-  const apikey = "89238b66937d41cc9acd679f7e1eff34";
+  const apikey = REACT_APP_APIKEY;
   const pageSize = 6;
 
   return (
